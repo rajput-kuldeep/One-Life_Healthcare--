@@ -6,7 +6,7 @@ import { Menu } from "lucide-react";
 const Navbar = () => {
     return (
         <div>
-            <nav className=" text-black bg-[#b7ded8] flex  justify-between items-center p-2">
+            <nav className="text-black bg-[#b7ded8] flex  justify-between items-center p-2">
                 <div>
                     <img src="one-life-logo-white.png" alt="" className="w-60 text-black" />
                 </div>
@@ -130,7 +130,7 @@ const Navbar = () => {
 </button></NavLink>
                 </div>
 
-                <div className="flex md:hidden">
+                <div className="flex md:hidden text-white">
                     <Sheet>
                         <SheetTrigger>
                             <Menu />
@@ -143,7 +143,7 @@ const Navbar = () => {
                                 alt="PCL"
                                 className="cursor-pointer rounded-full w-14"
                             />
-                            <ul className="text-start w-full">
+                            <ul className="text-start w-full text-white">
                                 <li
                                     className={`cursor-pointer px-4 py-1 rounded-full `}
 

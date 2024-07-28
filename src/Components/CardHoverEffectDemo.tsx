@@ -2,7 +2,7 @@ import { HoverEffect } from "../Components/ui/card-hover-effect/card-hover-effec
 
 export function CardHoverEffectDemo() {
   return (
-    <div className="max-w-[80vw] mx-auto text-center font-medium px-8">
+    <div className="max-w-full lg:max-w-[80vw] mx-auto text-center font-medium lg:px-8">
       <HoverEffect items={projects} />
     </div>
   );

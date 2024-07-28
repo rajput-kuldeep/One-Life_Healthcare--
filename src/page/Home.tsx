@@ -7,7 +7,7 @@ import Recovery from "../Components/Home/Recovery";
 
 const Home = () => {
   return (
-    <div className="bg-[#b7ded8] text-black">
+    <div className="bg-[#b7ded8] text-black w-[100vw]">
       <HomePage  />
       <HeroSection />
       <CardHoverEffectDemo />

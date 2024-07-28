@@ -3,14 +3,14 @@ import Lottie from "lottie-react";
 const HomePage = () => {
   
   return (
-    <div className="flex justify-between">
-      <div className="pl-20 pt-24 flex flex-col gap-5">
-         <div className="flex flex-col text-7xl font-bold font-flores-fresh leading-tight tracking-widest">
+    <div className="lg:flex lg:justify-between">
+      <div className="lg:pl-20 lg:pt-24 flex flex-col gap-5 justify-center items-center">
+         <div className="flex flex-col text-4xl lg:text-7xl font-bold font-flores-fresh leading-tight tracking-widest">
           <span className="">YOUR MENTAL</span>
           <span>HEALTH MATTERS</span>
          </div>
          <div>
-          <p className="text-xl font-medium w-80">Explore a compassionate space where you can connect, share, and grow with others on their mental health journey.</p>
+          <p className="text-md lg:text-xl font-medium w-80">Explore a compassionate space where you can connect, share, and grow with others on their mental health journey.</p>
          </div>
          <div className="">
          <button className="btn1 relative w-32 bg-[#EC6F74] text-[17px] font-medium text-[#181818] border-3 border-[#fec195] rounded-3xl shadow-none transition-all duration-300 ease-in-out cursor-pointer hover:bg-[#EC6F74] hover:text-white hover:shadow-[0_0_25px_rgba(254,193,149,0.55)] ">
@@ -168,7 +168,7 @@ const HomePage = () => {
 </button>
          </div>
       </div>
-      <div className="w-1/2">
+      <div className="w-full lg:w-1/2">
         <Lottie animationData={Animation} className="w-full" />
       </div>
     </div>
